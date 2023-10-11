@@ -1,3 +1,3 @@
-module sesi_1
+module latihan-bottcamp
 
 go 1.21.1
