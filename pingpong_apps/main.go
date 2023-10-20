@@ -52,7 +52,7 @@ func main() {
 		Hit:  0,
 	}
 
-	wg.Add(2)
+	wg.Add(1)
 
 	go play(playerA.Name, &playerA, &wg)
 	go play(playerB.Name, &playerB, &wg)
