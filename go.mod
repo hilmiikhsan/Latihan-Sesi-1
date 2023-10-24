@@ -5,6 +5,9 @@ go 1.21.1
 require (
 	github.com/gofiber/fiber/v2 v2.50.0
 	github.com/google/uuid v1.3.1
+	github.com/rs/cors v1.10.1
+	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
@@ -18,4 +21,5 @@ require (
 	github.com/valyala/fasthttp v1.50.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
+	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 )
